@@ -92,7 +92,7 @@ Dando tudo certo, terei a informação do class hash que fica no log. algo como 
 ### 2. Fazendo o deploy do Contrato
 
 ```bash
-starkli deploy <class_hash_obtido_na_fase_de_declarar__contrato> <inputs_do_controtor> --account .c-wallets/account0.json --rpc http://localhost:5050 --keystore .c-wallets/account0_keystore.json
+starkli deploy <class_hash_obtido_na_fase_de_declarar__contrato> <inputs_do_contrato> --account .c-wallets/account0.json --rpc http://localhost:5050 --keystore .c-wallets/account0_keystore.json
 ```
 > **Nota:** Nesse ponto usei os inputs_do_contrutor quem tem que ser convertido em hexadecimal. Utilizei o exemplo da aula, mas há convesores online para isso.
 Também foi solicitado o keystore password que defini anteriormente no passo criando o Signer.
